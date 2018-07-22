@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"></group>
+
+    <item android:title="ניהול מוזמנים" >
+        <menu >
+            <item
+                android:id="@+id/side_button_guest_view"
+                android:icon="@android:drawable/ic_menu_myplaces"
+                android:title="צפיה ברשימת מוזמנים" />
+            <item
+                android:id="@+id/side_button_guest_search"
+                android:icon="@android:drawable/ic_search_category_default"
+                android:title="חיפוש מוזמן" />
+        </menu>
+    </item>
+    <item android:title="ניהול ארוע">
+        <menu>
+            <item
+                android:id="@+id/side_button_elcho_manage"
+                android:icon="@android:drawable/star_on"
+                android:title="ניהול אלכוהול" />
+            <item
+                android:id="@+id/side_button_table_manage"
+                android:icon="@android:drawable/editbox_background_normal"
+                android:title="ניהול שולחנות" />
+        </menu>
+    </item>
+</menu>
